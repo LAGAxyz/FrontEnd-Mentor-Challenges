@@ -1,0 +1,140 @@
+body{
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 40%;
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-left{
+    background-color: var(--dark-blue);
+    margin: 0px 25px 55px 25px;
+    padding: 2.5rem 2.2rem;
+    width: 350px;
+    border-radius: 0.8rem;
+    border-top-right-radius: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icons__list{
+    display: flex;
+    list-style: none;
+}
+
+.icons__item{
+    background-color: var(--very-dark-blue);
+    width: 50px;
+    height: 50px;
+    padding: 0.5rem;
+    margin-right: 0.8rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-right{
+    background-color: var(--dark-blue);
+    margin: 0px 25px 55px 25px;
+    padding: 2.5rem 2.2rem;
+    width: 550px;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    position: relative;
+}
+
+.card__text{
+    color: var(--pale-blue);
+    margin-bottom: 10px;
+}
+
+.capacity-bar{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--very-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.progress-bar{
+    width: 70%;
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 3.5px;
+    background: -webkit-linear-gradient(left, var(--gradientA), var(--gradientB));
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.circle{
+    background-color: var(--pale-blue);
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+
+.storage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.storage__empty, .storage__full{
+    font-weight: 700;
+    color: var(--pale-blue);
+}
+
+.float-card{
+    background-color: #fff;
+    border-radius: 0.6rem;
+    padding: 15px;
+    width: 180px;
+    position: absolute;
+    top: -55px;
+    right: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.num185{
+    color: var(--very-dark-blue);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.gb-left{
+    color: var(--grayish-blue);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.triangulo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    background-color: white;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}

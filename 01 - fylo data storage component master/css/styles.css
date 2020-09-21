@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url("./desktop.css");
+@import url("./mobile.css");
+
+:root{
+    --width-mobile: 375px;
+    --width-desktop: 1440px;
+
+    --gradientA: hsl(6, 100%, 80%);
+    --gradientB: hsl(335, 100%, 65%);
+
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+
+    --raleway: 'Raleway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--raleway);
+}

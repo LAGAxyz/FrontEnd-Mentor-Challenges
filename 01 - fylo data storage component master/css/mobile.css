@@ -1,0 +1,34 @@
+
+@media (max-width:824px){
+    body{
+        background-image: url(../images/bg-mobile.png);
+        background-size: 100% 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 25px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-left{
+        width: 100%;
+    }
+    .card-right{
+        width: 100%;
+    }
+    .card__text{
+        text-align: center;
+    }
+    .float-card{
+        position: absolute;
+        top: 80%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .triangulo{
+        display: none;
+    }
+}
