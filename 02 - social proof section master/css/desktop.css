@@ -1,0 +1,140 @@
+body{
+    background-image: 
+        url(../images/bg-pattern-top-desktop.svg), 
+        url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    height: 100vh;
+}
+
+.parte-superior{
+    display: flex;
+    height: 50%;
+    padding: 70px 90px 20px 90px;
+}
+
+.text{
+    width: 50%;
+    height: 230px;
+    line-height: 2rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text__bold{
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.text__normal{
+    color: var(--dark-grayish-magenta);
+    line-height: 1.5rem;
+    max-width: 480px;
+}
+
+.stars{
+    width: 50%;
+    height: 230px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stars__card{
+    background-color: var(--light-grayish-magenta);
+    border-radius: 8px;
+    padding: 15px 20px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.star_card1{
+    align-self: flex-start;
+}
+
+.star_card3{
+    align-self: flex-end;
+}
+
+.stars__list{
+    display: flex;
+    list-style: none;
+    flex: 2;
+}
+
+.star__item{
+    margin-left: 0.5rem;
+}
+
+.star__text{
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 0.8rem;
+    flex: 3;
+}
+
+.testimonials{
+    height: 50%;
+    padding: 20px 90px 70px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony__card{
+    background-color: var(--very-dark-magenta);
+    border-radius: 8px;
+    padding: 25px 20px;
+    width: 30%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimony1{
+    align-self: flex-start;
+}
+
+.testimony3{
+    align-self: flex-end;
+}
+
+.testimony__person{
+    display: flex;
+}
+
+.testimony__photo{
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 40px;
+}
+
+.testimony__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimony__name{
+    color: var(--light-grayish-magenta);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.testimony__position{
+    color: var(--soft-pink);
+    font-size: 0.8rem;
+}
+
+.testimony__text{
+    color: var(--light-grayish-magenta);
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
