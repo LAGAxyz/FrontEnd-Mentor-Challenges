@@ -1,4 +1,88 @@
 
-@media (max-width:1200px){
+@media (max-width:1140px){
+    .text__normal{
+        max-width: 350px;
+    }
+    .stars__card{
+        width: 400px;
+    }
+    .star_card1{
+        align-self: center;
+    }
+    .star_card2{
+        align-self: center;
+    }
+    .star_card3{
+        align-self: center;
+    }
+    .testimony__card{
+        height: 225px;
+    }
+    .testimony1{
+        align-self: center;
+    }
+    .testimony2{
+        align-self: center;
+    }
+    .testimony3{
+        align-self: center;
+    }
+}
 
+@media (max-width:924px){
+    body{
+        background-image: 
+            url(../images/bg-pattern-top-mobile.svg), 
+            url(../images/bg-pattern-bottom-mobile.svg);
+    }
+    .parte-superior{
+        height: auto;
+        flex-direction: column;
+        padding: 80px 10px 20px 10px;
+    }
+    .text{
+        width: 350px;
+        text-align: center;
+        align-items: center;
+    }
+    .text__bold{
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .text__normal{
+        margin-bottom: 40px;
+    }
+    .stars{
+        height: 270px;
+    }
+    .stars__card{
+        width: 350px;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+    .star__text{
+        margin-top: 5px;
+    }
+    .testimonials{
+        height: auto;
+        padding: 20px 10px 20px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimony__card{
+        width: 300px;
+        height: 225px;
+        margin-bottom: 15px;
+        justify-content: space-around;
+    }
+    .testimony1{
+        align-self: center;
+    }
+    .testimony2{
+        align-self: center;
+    }
+    .testimony3{
+        align-self: center;
+    }
 }
