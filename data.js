@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         imageDesktop: "https://placehold.it/250X250",
         imageMobile: "https://placehold.it/250X250",
