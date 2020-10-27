@@ -1,4 +1,4 @@
-### FrontEnd Mentor Challenges (my solutions)
+﻿### FrontEnd Mentor Challenges (my solutions)
 
 ------------
 
@@ -17,7 +17,7 @@ Mis soluciones a los retos gratuitos de la plataforma **FrontEnd Mentor** (https
     * FlexBox
 <!-- * JavaScript -->
 <!-- * JQuery -->
-<!-- * Bootstrap -->
+* Bootstrap
 
 Código creado y editado por Luis Alberto Gutierrez Anicama (LAGA)
 
