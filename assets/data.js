@@ -31,10 +31,11 @@ export const data = [
         tools: ["HTML", "CSS", "Sass", "FlexBox"]
     },
     {
-        imageDesktop: "",
-        imageMobile: "",
-        title: "",
-        description: "",
+        imageDesktop: "./04 - four card feature section master/design/desktop-design.jpg",
+        imageMobile: "./04 - four card feature section master/design/mobile-design.jpg",
+        title: "Four card feature section",
+        // revisar hacia abajo
+        description: "Ahora mismo estoy trabajando en la solución de este reto, pronto lo estaré subiendo ;)",
         nivel: 1,
         url: "",
         code: "",
