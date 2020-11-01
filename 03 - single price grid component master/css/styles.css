@@ -102,6 +102,7 @@ main .bottom-part .left-part .text {
 }
 
 main .bottom-part .left-part button {
+  cursor: pointer;
   width: 100%;
   border: none;
   outline: none;
