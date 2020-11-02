@@ -12,7 +12,7 @@ Mis soluciones a los retos gratuitos de la plataforma **FrontEnd Mentor** (https
 * HTML5
 * CSS3
     <!-- * Less -->
-    <!-- * Sass -->
+    * Sass
     <!-- * Grid -->
     * FlexBox
 <!-- * JavaScript -->
