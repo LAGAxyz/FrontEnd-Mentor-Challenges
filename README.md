@@ -1,4 +1,4 @@
-﻿### FrontEnd Mentor Challenges (my solutions)
+### FrontEnd Mentor Challenges (my solutions)
 
 ------------
 
@@ -15,10 +15,10 @@ Mis soluciones a los retos gratuitos de la plataforma **FrontEnd Mentor** (https
     * Sass
     <!-- * Grid -->
     * FlexBox
-<!-- * JavaScript -->
+* JavaScript
 <!-- * JQuery -->
 * Bootstrap
 
-Código creado y editado por Luis Alberto Gutierrez Anicama (LAGA)
+------------
 
-Puedes ver las soluciones en vivo [aquí](https://lagaxyz.github.io/FrontEnd-Mentor-Challenges/)
+Código creado y editado por Luis Alberto Gutierrez Anicama (LAGA)
