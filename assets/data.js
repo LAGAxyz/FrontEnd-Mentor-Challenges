@@ -34,11 +34,10 @@ export const data = [
         imageDesktop: "./04 - four card feature section master/design/desktop-design.jpg",
         imageMobile: "./04 - four card feature section master/design/mobile-design.jpg",
         title: "Four card feature section",
-        // revisar hacia abajo
-        description: "Ahora mismo estoy trabajando en la solución de este reto, pronto lo estaré subiendo ;)",
+        description: "Un desafío que pondrá a prueba la creatividad en el manejo de diseños de múltiples columnas",
         nivel: 1,
-        url: "",
-        code: "",
-        tools: []
+        url: "./04 - four card feature section master/index.html",
+        code: "https://github.com/LAGAxyz/FrontEnd-Mentor-Challenges/tree/master/04%20-%20four%20card%20feature%20section%20master",
+        tools: ["HTML", "CSS", "Sass", "FlexBox"]
     }
 ];
