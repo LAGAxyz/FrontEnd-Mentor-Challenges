@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+main .texts {
+  width: 550px;
+  text-align: center;
+  color: #4c4e61;
+}
+
+main .texts .normal-title {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+main .texts .bold-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+main .texts .text {
+  margin: 8px 0px 15px 0px;
+}
+
+main .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .cards .card {
+  width: 270px;
+  height: 180px;
+  font-size: 14px;
+  margin: 20px 10px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 15px #a3a5ae;
+          box-shadow: 0px 5px 15px #a3a5ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .cards .card p {
+  font-weight: 600;
+  padding-bottom: 6px;
+  color: #4c4e61;
+}
+
+main .cards .card small {
+  line-height: 18px;
+}
+
+main .cards .card img {
+  width: 50px;
+  margin-top: 30px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+main .cards .card-green {
+  border-top: 3px solid #45d3d3;
+}
+
+main .cards .card-red {
+  border-top: 3px solid #ea5353;
+}
+
+main .cards .card-yellow {
+  border-top: 3px solid #fcaf4a;
+}
+
+main .cards .card-blue {
+  border-top: 3px solid #549ef2;
+}
+
+@media (max-width: 880px) {
+  body {
+    height: auto;
+  }
+  main {
+    padding: 50px 0px;
+  }
+  main .texts {
+    width: 270px;
+  }
+  main .texts .normal-title {
+    font-size: 22px;
+  }
+  main .texts .bold-title {
+    font-size: 22px;
+  }
+  main .texts .text {
+    font-size: 14px;
+  }
+  main .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .cards .card {
+    margin: 0px 0px;
+  }
+  main .cards .card-green {
+    margin: 10px 0px;
+  }
+  main .cards .card-red {
+    margin: 10px 0px 20px 0px;
+  }
+  main .cards .card-yellow {
+    margin: 20px 0px 10px 0px;
+  }
+  main .cards .card-blue {
+    margin: 10px 0px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
