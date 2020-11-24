@@ -134,6 +134,11 @@ main .bottom-part .right-part li {
 }
 
 @media (max-width: 650px) {
+  body {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+  }
   main {
     width: 300px;
     height: auto;
