@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | IP Address Tracker</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-
-  IP Address Tracker
-
-  Search for any IP address or domain
-
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="top">
+    <h1 class="title">IP Address Tracker</h1>
+    <div class="search">
+      <input class="input-search" id="search" type="text" placeholder="Search for any IP address or domain">
+      <button class="btnSend" id="btnSearch">
+        <img src="./images/icon-arrow.svg" alt="Flecha">
+      </button>
+    </div>
   </div>
+  <div class="float">
+    <div class="section">
+      <small>IP Address</small>
+      <span id="ip">192.212.174.101</span>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+      <small>Location</small>
+      <span id="location">Brooklyn, NY 10001</span>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+      <small>Timezone</small>
+      <span id="timezone">UTC - 05:00</span>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+      <small>ISP</small>
+      <span id="isp">SpaceX Starlink</span>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="map" id="map"></div>
+  </div>
+  </div>
+  <script
+    src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==">
+  </script>
+  <script src="./main.js"></script>
 </body>
 </html>
