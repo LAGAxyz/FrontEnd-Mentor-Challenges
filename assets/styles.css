@@ -4,3 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.card-img-top{
+    height: 190px;
+}
